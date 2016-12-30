@@ -14,4 +14,8 @@ public abstract class AbsDuck {
     public String swim() {
         return "I can swim";
     }
+
+    public String fly() {
+        return "I can fly";
+    }
 }
