@@ -61,4 +61,33 @@ public class DucksTest {
         //then
         Assert.assertEquals("i can swim", swimmed.toLowerCase());
     }
+
+
+    @Test public void should_return_rubber_duck_when_display_a_rubber_duck() {
+        //given
+        final RubberDuck theDuck = new RubberDuck();
+        //when
+        final String displayed = theDuck.display();
+        //then
+        Assert.assertEquals("rubber duck", displayed.toLowerCase());
+    }
+
+    @Test public void should_return_I_can_quack_when_a_rubber_quacks() {
+        //given
+        final RubberDuck theDuck = new RubberDuck();
+        //when
+        final String quacked = theDuck.quack();
+        //then
+        Assert.assertEquals("i can quack", quacked.toLowerCase());
+    }
+
+    @Test public void should_return_I_can_swim_when_rubber_duck_swims() {
+        //given
+        final RubberDuck theDuck = new RubberDuck();
+        //when
+        final String swimmed = theDuck.swim();
+        //then
+        Assert.assertEquals("i can swim", swimmed.toLowerCase());
+    }
+
 }
