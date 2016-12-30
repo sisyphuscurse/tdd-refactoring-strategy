@@ -6,6 +6,6 @@ package practice.tdd.refactoring.strategy;
 public class RedHeadDuck extends AbsDuck {
 
     @Override public String display() {
-        return null;
+        return "red head duck";
     }
 }

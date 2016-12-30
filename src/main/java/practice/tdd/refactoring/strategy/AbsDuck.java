@@ -8,10 +8,10 @@ public abstract class AbsDuck {
     public abstract String display();
 
     public String quack() {
-        return null;
+        return "I can quack";
     }
 
     public String swim() {
-        return null;
+        return "I can swim";
     }
 }

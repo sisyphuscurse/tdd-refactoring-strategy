@@ -6,7 +6,7 @@ package practice.tdd.refactoring.strategy;
 public class GreenHeadDuck extends AbsDuck {
 
     public String display() {
-        return null;
+        return "green head duck";
     }
 
 }

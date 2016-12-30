@@ -23,7 +23,7 @@ public class DucksTest {
         //when
         final String quacked = theDuck.quack();
         //then
-        Assert.assertEquals("I can quack", quacked.toLowerCase());
+        Assert.assertEquals("i can quack", quacked.toLowerCase());
     }
 
     @Test public void should_return_I_can_swim_when_red_head_duck_swims() {
@@ -32,7 +32,7 @@ public class DucksTest {
         //when
         final String swimmed = theDuck.swim();
         //then
-        Assert.assertEquals("I can swim", swimmed.toLowerCase());
+        Assert.assertEquals("i can swim", swimmed.toLowerCase());
     }
 
     @Test public void should_return_green_head_duck_when_display_a_green_head_duck() {
@@ -50,7 +50,7 @@ public class DucksTest {
         //when
         final String quacked = theDuck.quack();
         //then
-        Assert.assertEquals("I can quack", quacked.toLowerCase());
+        Assert.assertEquals("i can quack", quacked.toLowerCase());
     }
 
     @Test public void should_return_I_can_swim_when_green_head_duck_swims() {
@@ -59,6 +59,6 @@ public class DucksTest {
         //when
         final String swimmed = theDuck.swim();
         //then
-        Assert.assertEquals("I can swim", swimmed.toLowerCase());
+        Assert.assertEquals("i can swim", swimmed.toLowerCase());
     }
 }
