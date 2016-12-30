@@ -18,9 +18,21 @@ public class DucksTest {
     }
 
     @Test public void should_return_I_can_quack_when_red_head_duck_quacks() {
+        //given
+        final RedHeadDuck theDuck = new RedHeadDuck();
+        //when
+        final String quacked = theDuck.quack();
+        //then
+        Assert.assertEquals("I can quack", quacked.toLowerCase());
     }
 
     @Test public void should_return_I_can_swim_when_red_head_duck_swims() {
+        //given
+        final RedHeadDuck theDuck = new RedHeadDuck();
+        //when
+        final String swimmed = theDuck.swim();
+        //then
+        Assert.assertEquals("I can swim", swimmed.toLowerCase());
     }
 
     @Test public void should_return_green_head_duck_when_display_a_green_head_duck() {

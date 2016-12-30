@@ -8,4 +8,12 @@ public class RedHeadDuck {
     public String display() {
         return null;
     }
+
+    public String quack() {
+        return null;
+    }
+
+    public String swim() {
+        return null;
+    }
 }
