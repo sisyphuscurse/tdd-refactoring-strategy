@@ -8,4 +8,8 @@ public class RubberDuck extends AbsDuck {
     public String display() {
         return "rubber duck";
     }
+
+    @Override public String fly() {
+        return "I cannot fly";
+    }
 }
