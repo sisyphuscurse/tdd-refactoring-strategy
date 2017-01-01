@@ -115,4 +115,40 @@ public class DucksTest {
         //then
         Assert.assertEquals("i cannot fly", flied.toLowerCase());
     }
+
+    @Test public void should_return_decoy_duck_when_display_a_decoy_duck() {
+        //given
+        final AbsDuck theDuck = new DecoyDuck();
+        //when
+        final String displayed = theDuck.display();
+        //then
+        Assert.assertEquals("red head duck", displayed.toLowerCase());
+    }
+
+    @Test public void should_return_I_cannot_fly_when_decoy_duck_fly() {
+        //given
+        final AbsDuck theDuck = new DecoyDuck();
+        //when
+        final String flied = theDuck.fly();
+        //then
+        Assert.assertEquals("i cannot fly", flied.toLowerCase());
+    }
+
+    @Test public void should_return_I_cannot_quack_when_decoy_duck_quack() {
+        //given
+        final AbsDuck theDuck = new DecoyDuck();
+        //when
+        final String quacked = theDuck.quack();
+        //then
+        Assert.assertEquals("i cannot quack", quacked.toLowerCase());
+    }
+
+    @Test public void should_return_I_cannot_swim_when_decoy_duck_swim() {
+        //given
+        final AbsDuck theDuck = new DecoyDuck();
+        //when
+        final String swimmed = theDuck.swim();
+        //then
+        Assert.assertEquals("i cannot fly", swimmed.toLowerCase());
+    }
 }
