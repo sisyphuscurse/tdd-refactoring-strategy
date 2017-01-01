@@ -122,7 +122,7 @@ public class DucksTest {
         //when
         final String displayed = theDuck.display();
         //then
-        Assert.assertEquals("red head duck", displayed.toLowerCase());
+        Assert.assertEquals("decoy duck", displayed.toLowerCase());
     }
 
     @Test public void should_return_I_cannot_fly_when_decoy_duck_fly() {
