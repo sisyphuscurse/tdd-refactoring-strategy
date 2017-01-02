@@ -149,6 +149,6 @@ public class DucksTest {
         //when
         final String swimmed = theDuck.swim();
         //then
-        Assert.assertEquals("i cannot fly", swimmed.toLowerCase());
+        Assert.assertEquals("i cannot swim", swimmed.toLowerCase());
     }
 }
