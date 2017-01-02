@@ -6,6 +6,8 @@ package practice.tdd.refactoring.strategy;
 public class DecoyDuck extends AbsDuck {
 
     public String display() {
-        return null;
+        return "decoy duck";
     }
+
+    
 }
