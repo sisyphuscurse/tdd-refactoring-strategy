@@ -10,14 +10,14 @@ public class DecoyDuck extends AbsDuck {
     }
 
     @Override public String quack() {
-        return super.quack();
+        return "I cannot quack";
     }
 
     @Override public String swim() {
-        return super.swim();
+        return "I cannot swim";
     }
 
     @Override public String fly() {
-        return super.fly();
+        return "I cannot fly";
     }
 }
